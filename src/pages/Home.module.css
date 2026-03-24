@@ -11,18 +11,18 @@
   padding: 5rem 1.5rem;
 }
 .bannerBg { position: absolute; inset: 0; pointer-events: none; }
-.orb1 {
+/* .orb1 {
   position: absolute; top: 10%; left: 5%;
   width: 500px; height: 500px;
   background: radial-gradient(circle, rgba(124,92,252,0.12) 0%, transparent 70%);
   border-radius: 50%;
-}
-.orb2 {
+} */
+/* .orb2 {
   position: absolute; bottom: 5%; right: 5%;
   width: 400px; height: 400px;
   background: radial-gradient(circle, rgba(16,185,129,0.08) 0%, transparent 70%);
   border-radius: 50%;
-}
+} */
 .grid {
   position: absolute; inset: 0;
   background-image: linear-gradient(rgba(124,92,252,0.04) 1px, transparent 1px),
@@ -33,7 +33,8 @@
 
 .bannerContent {
   max-width: 1200px; margin: 0 auto; width: 100%;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;
+  /* display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; */
+  text-align: center;
 }
 
 .badge {
@@ -77,6 +78,8 @@
 
 .bannerSub {
   font-size: 1.05rem;
+  text-align: center;
+  margin: auto;
   color: var(--text2);
   max-width: 440px;
   line-height: 1.7;
@@ -87,6 +90,8 @@
 .bannerBtns {
   display: flex; gap: 1rem; flex-wrap: wrap;
   animation: fadeUp 0.6s ease 0.4s backwards;
+  align-items: center;
+  justify-content: center;
 }
 
 .btnPrimary {

@@ -25,16 +25,13 @@ export default function Home() {
     <div className={styles.page}>
       {/* BANNER */}
       <section className={styles.banner}>
-        <div className={styles.bannerBg}>
+        {/* <div className={styles.bannerBg}>
           <div className={styles.orb1} />
           <div className={styles.orb2} />
           <div className={styles.grid} />
-        </div>
+        </div> */}
         <div className={styles.bannerContent}>
-          <div className={styles.badge}>
-            <span className={styles.badgeDot} />
-            Discover · Install · Explore
-          </div>
+          
           <h1 className={styles.bannerHeading}>
             Your Universe of<br />
             <span className={styles.highlight}>Powerful Apps</span>
@@ -124,12 +121,6 @@ export default function Home() {
               <h2 className={styles.sectionTitle}>Top Apps</h2>
               <p className={styles.sectionSub}>Most downloaded and highest rated apps this week</p>
             </div>
-            {/* <Link to="/apps" className={styles.showAllBtn}>
-              Show All
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </Link> */}
           </div>
           <div className={styles.appsGrid}>
             {topApps.map((app, i) => (
@@ -147,24 +138,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA STRIP */}
-      <section className={styles.ctaSection}>
-        <div className={styles.container}>
-          <div className={styles.ctaBox}>
-            <div className={styles.ctaOrb} />
-            <div className={styles.ctaText}>
-              <h2>Ready to explore all {appsData.length} apps?</h2>
-              <p>Browse our full catalog, search by name, and find your next essential app.</p>
-            </div>
-            <button className={styles.btnPrimary} onClick={() => navigate('/apps')}>
-              Browse All Apps
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
