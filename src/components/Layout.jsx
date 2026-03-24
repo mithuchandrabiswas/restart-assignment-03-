@@ -60,7 +60,7 @@ export default function Layout() {
 
           <div className={styles.headerRight}>
             <a
-              href="https://github.com"
+              href="https://github.com/mithuchandrabiswas"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.contributeBtn}
