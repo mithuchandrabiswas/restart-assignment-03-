@@ -80,21 +80,6 @@ hero-io/
 ├── vite.config.js
 ├── package.json
 └── README.md
-```
-
-## 🌐 Deployment
-
-This app is a Vite SPA. Deploy to **Vercel** or **Netlify** with zero config:
-
-```bash
-npm run build
-# Deploy the `dist/` folder
-```
-
-For Netlify, add a `_redirects` file in `/public`:
-```
-/* /index.html 200
-```
 
 ## 📝 Git Commits
 
