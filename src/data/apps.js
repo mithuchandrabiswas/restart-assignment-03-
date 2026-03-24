@@ -268,5 +268,95 @@ export const appsData = [
       { name: "4 star", count: 5200 },
       { name: "5 star", count: 15370 }
     ]
+  },
+  {
+    id: 16,
+    title: "SnapShop",
+    companyName: "CartX Technologies",
+    image: "https://img.icons8.com/fluency/96/shopping-cart.png",
+    description: "SnapShop is a visual shopping app that lets you search for products by photo. Point your camera at any item and instantly find the best deals across thousands of online stores. AI-powered price comparison included.",
+    size: 74,
+    reviews: 47300,
+    ratingAvg: 4.4,
+    downloads: 7600000,
+    ratings: [
+      { name: "1 star", count: 380 },
+      { name: "2 star", count: 650 },
+      { name: "3 star", count: 3100 },
+      { name: "4 star", count: 11200 },
+      { name: "5 star", count: 31970 }
+    ]
+  },
+  {
+    id: 17,
+    title: "TuneWave",
+    companyName: "AudioNest",
+    image: "https://img.icons8.com/fluency/96/music.png",
+    description: "TuneWave delivers lossless audio streaming with 90 million tracks, curated playlists, and AI-generated radio stations. Offline mode, lyrics sync, and cross-device listening make it the audiophile's choice.",
+    size: 89,
+    reviews: 143000,
+    ratingAvg: 4.7,
+    downloads: 22000000,
+    ratings: [
+      { name: "1 star", count: 900 },
+      { name: "2 star", count: 1500 },
+      { name: "3 star", count: 7200 },
+      { name: "4 star", count: 31000 },
+      { name: "5 star", count: 102400 }
+    ]
+  },
+  {
+    id: 18,
+    title: "PetCare Plus",
+    companyName: "FurFriend Inc.",
+    image: "https://img.icons8.com/fluency/96/cat.png",
+    description: "PetCare Plus is your all-in-one pet management app. Schedule vet appointments, track vaccinations, log meals and walks, and connect with a community of pet lovers. Supports dogs, cats, birds, and more.",
+    size: 53,
+    reviews: 16800,
+    ratingAvg: 4.8,
+    downloads: 1400000,
+    ratings: [
+      { name: "1 star", count: 60 },
+      { name: "2 star", count: 110 },
+      { name: "3 star", count: 520 },
+      { name: "4 star", count: 3200 },
+      { name: "5 star", count: 12910 }
+    ]
+  },
+  {
+    id: 19,
+    title: "CryptoLens",
+    companyName: "BlockVision",
+    image: "https://img.icons8.com/fluency/96/bitcoin.png",
+    description: "CryptoLens gives you real-time price alerts, portfolio tracking, and in-depth analysis for 10,000+ cryptocurrencies. Built-in news aggregator and fear & greed index help you make smarter trading decisions.",
+    size: 46,
+    reviews: 38600,
+    ratingAvg: 4.2,
+    downloads: 5100000,
+    ratings: [
+      { name: "1 star", count: 520 },
+      { name: "2 star", count: 880 },
+      { name: "3 star", count: 3900 },
+      { name: "4 star", count: 9800 },
+      { name: "5 star", count: 23500 }
+    ]
+  },
+  {
+    id: 20,
+    title: "ArchiSketch",
+    companyName: "DesignForge",
+    image: "https://img.icons8.com/fluency/96/blueprint.png",
+    description: "ArchiSketch is a professional floor plan and interior design app for architects and homeowners alike. Drag-and-drop furniture, 3D walkthroughs, and AR room preview make planning your dream space effortless.",
+    size: 137,
+    reviews: 11400,
+    ratingAvg: 4.5,
+    downloads: 870000,
+    ratings: [
+      { name: "1 star", count: 70 },
+      { name: "2 star", count: 130 },
+      { name: "3 star", count: 480 },
+      { name: "4 star", count: 2400 },
+      { name: "5 star", count: 8320 }
+    ]
   }
 ];
