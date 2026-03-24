@@ -179,9 +179,11 @@
 .statLabel { font-size: 0.85rem; color: var(--text2); margin-top: 2px; }
 
 /* APPS SECTION */
-.appsSection { padding: 2rem 0 4rem; }
+.appsSection { padding: 2rem 0 4rem; border: 1px solid #787878; border-radius: 20px; }
+.sectionContent {
+  text-align: center;
+}
 .sectionHeader {
-  display: flex; align-items: flex-end; justify-content: space-between;
   margin-bottom: 1.75rem;
 }
 .sectionTitle {
@@ -202,6 +204,10 @@
   padding: 0.45rem 1rem;
   transition: all 0.2s;
   white-space: nowrap;
+}
+.allBtnCenter {
+  text-align: center;
+  margin-top: 2rem;
 }
 .showAllBtn:hover { background: rgba(124,92,252,0.2); }
 

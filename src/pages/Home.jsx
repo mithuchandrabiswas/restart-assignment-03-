@@ -120,22 +120,30 @@ export default function Home() {
       <section className={styles.appsSection}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
-            <div>
+            <div className={styles.sectionContent}>
               <h2 className={styles.sectionTitle}>Top Apps</h2>
               <p className={styles.sectionSub}>Most downloaded and highest rated apps this week</p>
             </div>
-            <Link to="/apps" className={styles.showAllBtn}>
+            {/* <Link to="/apps" className={styles.showAllBtn}>
               Show All
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
-            </Link>
+            </Link> */}
           </div>
           <div className={styles.appsGrid}>
             {topApps.map((app, i) => (
               <AppCard key={app.id} app={app} delay={i * 50} />
             ))}
           </div>
+        </div>
+        <div className={styles.allBtnCenter}>
+          <button className={styles.btnPrimary} onClick={() => navigate('/apps')}>
+              Browse All Apps
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
         </div>
       </section>
 
